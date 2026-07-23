@@ -1,0 +1,21 @@
+# Airspace Intelligence
+
+> Air Space Intelligence (ASI) builds AI software for mission-critical, geospatial operations across aviation, defense, logistics, and energy. Its Prescience platform fuses data, models domains, runs predictive simulations, and optimizes complex operations in real time. ASI holds an $875M FAA contract to help modernize the U.S. National Airspace System.
+
+Note: Airspace Intelligence does not publish a public developer API, OpenAPI spec, or developer portal as of this writing. This file is generated from the API Evangelist catalog profile and the company's public website.
+
+## Company
+- [Website](https://www.airspace-intelligence.com/): Company home and overview.
+- [Platform](https://www.airspace-intelligence.com/platform): The Prescience platform — data fusion, domain modeling, predictive simulation, optimization, secure communications, operational replay.
+- [About / Company](https://www.airspace-intelligence.com/company): Company background and team.
+- [Newsroom](https://www.airspace-intelligence.com/newsroom): Dated press releases and news coverage.
+- [Case Study — Flight Efficiency](https://www.airspace-intelligence.com/case-study/flight-efficiency): Airline fuel-savings optimization case study.
+- [Careers](https://www.airspace-intelligence.com/careers): Open roles.
+- [Contact](https://www.airspace-intelligence.com/contact): Contact the company.
+
+## Legal
+- [Terms of Service](https://www.airspace-intelligence.com/terms-of-service)
+- [Privacy Policy](https://www.airspace-intelligence.com/privacy-policy)
+
+## Catalog artifacts
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/airspace-intelligence/refs/heads/main/security/airspace-intelligence-domain-security.yml): TLS/HSTS/DNSSEC/SPF/DMARC posture for airspace-intelligence.com.

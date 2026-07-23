@@ -1,8 +1,25 @@
 aid: airspace-intelligence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airspace-intelligence.png
 name: Airspace Intelligence
-description: Airspace Intelligence is a company surfaced as a portfolio company of bloomberg-beta, spark-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Air Space Intelligence (ASI) builds AI software for mission-critical, geospatial
+  operations across aviation, defense, logistics, and energy. Its Prescience platform fuses
+  data, models operational domains, runs predictive simulations, and optimizes complex operations
+  in real time — spanning airline operations, air traffic management, global logistics, defense
+  (space, air, land, sea), and energy grids. ASI holds an $875M FAA contract to help modernize
+  the U.S. National Airspace System and works with partners including Alaska Airlines, National
+  Grid, and the U.S. Air Force. As of this profile the company publishes no public developer
+  API, OpenAPI specification, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/airspace-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Aviation
+- Air Traffic Management
+- Defense
+- Logistics
+- Optimization
+- Energy
+- Aerospace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/airspace-intelligence-domain-security.yml
+- type: LLMsTxt
+  url: llms/airspace-intelligence-llms.txt
 - type: Website
   url: https://www.airspace-intelligence.com/
+- type: Blog
+  url: https://www.airspace-intelligence.com/newsroom
+- type: Support
+  url: https://www.airspace-intelligence.com/contact
+- type: TermsOfService
+  url: https://www.airspace-intelligence.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.airspace-intelligence.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
